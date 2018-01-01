@@ -8,11 +8,11 @@ A script for making animated gifs from a video file can be found [here](https://
 
 ## License
 
-linx-utilities is available under the [MIT License](https://github.com/hutchgrant/linux-utilities/blob/master/LICENSE).
+linux-utilities is available under the [MIT License](https://github.com/hutchgrant/linux-utilities/blob/master/LICENSE).
 
 ## Contributing
 
-For more information see [contributing](https://github.com/hutchgrant/linux-utilities/blob/master/CONTRIBUTING.md).
+For any additions or bug fixes see [contributing](https://github.com/hutchgrant/linux-utilities/blob/master/CONTRIBUTING.md).
 
 ## Author
 
