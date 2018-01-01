@@ -1,0 +1,21 @@
+// Start with sudo pm2 start thistemplate.json  and save the process with sudo pm2 save 
+// then use sudo pm2 startup to set pm2 to boot on restart
+// see http://pm2.keymetrics.io/docs/usage/application-declaration/  for advanced configuration options
+{
+  "apps": [
+    {
+      "name": "your-app-name",
+      "script": "npm",
+      "args": "start",
+      "instances": 1,
+      "exec_mode": "fork",
+      "max_restarts": 20,
+      "max_memory_restart": "200M",
+      "autorestart": true,
+      "env": {
+        "NODE_ENV": "development",
+        "PORT": "3002",
+      }
+    }
+  ]
+}
